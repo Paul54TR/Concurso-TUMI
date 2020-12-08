@@ -16,8 +16,8 @@ function SumaS( numeroElemento , arreglo , suma)
         return SumaS(numeroElemento - 1,arreglo,  suma);
      
     /*
-        Se evaluan todas las sumas posibles, restando el número actual ó ignorando el número
-        Así llegando a todas las combinaciones posibles.
+        Se evaluan todas las sumas posibles, restando el número actual ó ignorando el número y pasando al siguiente
+        En forma de arbol se llega a todas las combinaciones posibles.
     */
     return SumaS( numeroElemento - 1,arreglo, suma) || SumaS( numeroElemento - 1,arreglo, suma - arreglo[numeroElemento - 1]);
 }

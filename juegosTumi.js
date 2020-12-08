@@ -40,7 +40,7 @@ function juego(valor1 =-1 , valor2 = -1){
     return contadorResultado;
 }
 
-//CASOS DE PRUEBA
+//CASOS DE PRUEBA.
 console.log(juego(1,4));
 console.log(juego(3,3));
 console.log(juego(5,1));
